@@ -1,0 +1,45 @@
+/* Article */
+
+.article_wide {
+    margin-top: 30px;
+}
+
+/* Lists */
+
+.article_wide * li {
+    /*line-height: 1.1em;*/
+    line-height: 200%;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+
+/* Paragraphs. */
+
+.article_wide p {
+    /*line-height: 1.3em;*/
+    line-height: 170%;
+    margin-bottom: 1.5em;
+}
+
+/* Headers. */
+
+.article_wide h1 {
+    padding-bottom: 1em;
+    font-size: 1.4em;
+}
+
+.article_wide h2 {
+    padding-bottom: 0.9em;
+    font-size: 1.2em;
+}
+
+.article_wide h3 {
+    padding-bottom: 0.8em;
+    font-size: 1em;
+}
+
+/* Footnotes. */
+
+.article_wide .footnote {
+    font-size: 0.8em;
+}

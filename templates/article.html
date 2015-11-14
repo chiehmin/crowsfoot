@@ -22,9 +22,13 @@
     {% endif  %}
   </div><!-- .postinfo -->
 
-  <div class="article">
-    {{ article.content }}
-  </div><!-- .content -->
+  {% if article.biglineheight %}
+    <div class="article_wide">
+  {% else %}
+    <div class="article">
+  {% endif %}
+      {{ article.content }}
+    </div><!-- .content -->
 
   {% if DISQUS_SITENAME %}
     <h2>Comments</h2>
