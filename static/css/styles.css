@@ -232,6 +232,13 @@ sub {
 .article code {
     font-family: 'Source Code Pro';
     font-size: 1em;
+    background-color:#fefefe;
+    width: 800px;
+    margin: 0 0 0 0;
+    margin-bottom: 20px;
+    overflow: auto;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
 }
 
 /* Footer at page bottom */
